@@ -156,3 +156,9 @@ footer a:hover {
   margin-left: auto;
   margin-right: auto;
 }
+#carbon {
+  display: block;
+  filter: drop-shadow(10px 10px 10px purple);
+  margin-left: auto;
+  margin-right: auto;
+}
