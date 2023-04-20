@@ -38,16 +38,25 @@
       >
         Carbon-14
       </button>
+
+      <button
+        class="tablinks"
+        onclick="openTab(event, 'tab4')"
+        id="tab4-button"
+      >
+        Physical units astrophysics
+      </button>
     </div>
 
     <!-- Tab content -->
     <div id="tab1" class="tabcontent"></div>
     <div id="tab2" class="tabcontent"></div>
     <div id="tab3" class="tabcontent"></div>
+    <div id="tab4" class="tabcontent"></div>
     <script src="js/tabs.js"></script>
 
     <script>
-      const texts = ["tab1", "tab2", "tab3"];
+      const texts = ["tab1", "tab2", "tab3", "tab4"];
       for (let i = 0; i < texts.length; i++) {
         $("#" + texts[i] + "-button").click(function () {
           $("#" + texts[i]).load("html/" + texts[i] + ".html");
