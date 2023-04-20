@@ -4,12 +4,12 @@ html {
 
 body {
   margin: 0;
-  background-color: #ffffff;
+  background-color: #e7ffee;
 }
 
 header h1 {
-  background-color: pink;
-  color: white;
+  background-color: #dcabff;
+  color: #a25bd5;
   padding: 3rem 2rem;
   font-size: 3rem;
   text-align: center;
@@ -46,7 +46,7 @@ h5 {
 
 body p {
   transition: all 0.3s ease;
-  background-color: #fff;
+  background-color: #e7ffee;
   margin: 1rem 0;
   border-radius: 0.5rem;
   padding: 1rem 1rem;
@@ -62,9 +62,9 @@ body p:hover {
 }
 
 footer {
-  background-color: #222;
+  background-color: #ddfcc3;
   padding: 3rem;
-  color: white;
+  color: #67b029;
   border-radius: 0.5rem;
 }
 
@@ -99,8 +99,8 @@ footer a:hover {
 
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #e7d6ff;
+  background-color: #e7d6ff;
   width: 800px;
   margin: 0 auto;
   border-radius: 0.3rem;
@@ -108,7 +108,7 @@ footer a:hover {
 
 /* Style the buttons that are used to open the tab content */
 .tab button {
-  background-color: inherit;
+  background-color: #fa98ff;
   float: left;
   border: none;
   outline: none;
@@ -119,7 +119,7 @@ footer a:hover {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #fa98ff;
 }
 
 /* Create an active/current tablink class */
@@ -145,20 +145,26 @@ footer a:hover {
 
 #hoal {
   display: block;
-  filter: drop-shadow(10px 20px 10px pink);
+  filter: drop-shadow(10px 10px 10px #ffc8f7);
   margin-left: auto;
   margin-right: auto;
 }
 
 #parallax {
   display: block;
-  filter: drop-shadow(10px 10px 10px blue);
+  filter: drop-shadow(10px 10px 10px #8ef7b9);
   margin-left: auto;
   margin-right: auto;
 }
 #carbon {
   display: block;
-  filter: drop-shadow(10px 10px 10px purple);
+  filter: drop-shadow(10px 10px 10px #dfa6fc);
+  margin-left: auto;
+  margin-right: auto;
+}
+#unidades {
+  display: block;
+  filter: drop-shadow(10px 10px 10px #d9d5f2);
   margin-left: auto;
   margin-right: auto;
 }
